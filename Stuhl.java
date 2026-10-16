@@ -18,4 +18,20 @@ public class Stuhl
     {
         return drehbar;
     }
+    
+    public void setFarbe(String neuFarbe)
+    {
+        Farbe = neuFarbe;
+    }
+    
+    public void setHoehe(int neuHoehe)
+    {
+        hoehe = neuHoehe;
+    }
+    
+    public void setDrehbar(boolean neuDrehbar)
+    {
+        drehbar = neuDrehbar;
+    }
+
 }
