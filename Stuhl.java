@@ -4,6 +4,20 @@ public class Stuhl
     private int hoehe;
     private boolean drehbar;
     
+    public Stuhl()
+    {
+        setFarbe("UNKN");
+        setHoehe(20);
+        setDrehbar(false);
+    }
+
+    public Stuhl(String neuFarbe, int neuHoehe, boolean neuDrehbar)
+    {
+        setFarbe(neuFarbe);
+        setHoehe(neuHoehe);
+        setDrehbar(neuDrehbar);
+    }
+    
     public String getFarbe()
     {
         return Farbe;
