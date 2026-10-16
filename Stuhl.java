@@ -38,10 +38,20 @@ public class Stuhl
         Farbe = neuFarbe;
     }
     
+     // Hoehe muss zwischen 20 und 120 liegen
     public void setHoehe(int neuHoehe)
     {
-        hoehe = neuHoehe;
+        if ((neuHoehe >= 20) && (neuHoehe <= 120))
+        {
+            hoehe = neuHoehe;
+        }
+        else
+        {
+            System.out.println("Fehler: ungültige Höhe!");
+            hoehe = 20;
+        }
     }
+
     
     public void setDrehbar(boolean neuDrehbar)
     {
