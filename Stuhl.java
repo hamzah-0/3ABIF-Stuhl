@@ -58,4 +58,8 @@ public class Stuhl
         drehbar = neuDrehbar;
     }
 
+        public void printStuhl()
+    {
+        System.out.println("Stuhl: " + Farbe + "-" + hoehe + "-" + drehbar);
+    }
 }
